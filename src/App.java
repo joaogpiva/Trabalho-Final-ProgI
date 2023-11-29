@@ -21,7 +21,7 @@ public class App {
 
         for (int i = 0; i < playerAmount; i++) {
             players.add(new Player());
-            players.get(i).drawCards(deck, 6);
+            players.get(i).drawCards(deck, 12);
             System.out.println("Digite o nome do jogador " + (i+1) + ": ");
             players.get(i).name = scanner.nextLine();
             System.out.println("=============");
